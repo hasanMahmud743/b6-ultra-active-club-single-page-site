@@ -18,8 +18,8 @@ const Info = (props) => {
 
 
     return (
-        <div>
-            <h2>This is Mahmudul Hasan</h2>
+        <div className='infoDiv'>
+            <h2>Mahmudul's Fitness Report</h2>
             <h3> W-63kg, H-5.7", Age-23</h3>
             <h4>Add a Break</h4>
             <div>

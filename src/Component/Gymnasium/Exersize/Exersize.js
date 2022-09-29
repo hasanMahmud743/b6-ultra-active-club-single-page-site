@@ -3,15 +3,18 @@ import './Exersize.css';
 
 const Exersize = (props) => {
    
-    const {name, image,  forAge, timeReq} = props.card
+    const {name, image,  forAge, timeReq, description} = props.card
     const {addValueToInfo} = props
    
     return (
         <div className='card'>
              <img src={image} alt="images" />
-            <h2>{name}</h2>
-            <p>For Age: {forAge}</p>
-            <p>Time Required: {timeReq}</p>
+                <div className='card-info'>
+                    <h2>{name}</h2>
+                    <p> <small> {description}</small></p>
+                    <p>For Age: {forAge}</p>
+                    <p>Time Required: {timeReq}</p>
+                </div>
             <button onClick={()=>addValueToInfo(timeReq)}>Add to Cart</button>
             
         </div>
