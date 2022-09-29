@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './info.css';
 const Info = (props) => {
     const [duration, setDuration] =useState(0)
@@ -15,6 +17,8 @@ const Info = (props) => {
         
         setDuration(duration)
     }
+
+    const notify = () => toast("Your activities is completed for today!");
 
 
     return (
@@ -55,8 +59,8 @@ const Info = (props) => {
             <h4 className='info-display'>Exersize Time: {props.addValue} sec</h4>
             <h4 className='info-display'>Break Time: {duration} sec</h4>
 
-            <button className='addButton2'>Complete Activities</button>
-
+            <button onClick={notify} className='addButton2'>Complete Activities</button>
+            <ToastContainer />
 
             
         </div>
