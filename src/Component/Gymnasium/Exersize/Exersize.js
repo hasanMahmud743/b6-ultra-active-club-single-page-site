@@ -12,10 +12,12 @@ const Exersize = (props) => {
                 <div className='card-info'>
                     <h2>{name}</h2>
                     <p> <small> {description}</small></p>
-                    <p>For Age: {forAge}</p>
-                    <p>Time Required: {timeReq}</p>
+                    <h4>For Age: {forAge} </h4>
+                    <h4>Time Required: {timeReq} sec</h4>
                 </div>
-            <button onClick={()=>addValueToInfo(timeReq)}>Add to Cart</button>
+            <div className='buttonDiv'>
+            <button className='addButton' onClick={()=>addValueToInfo(timeReq)}>Add to Cart</button>
+            </div>
             
         </div>
     );

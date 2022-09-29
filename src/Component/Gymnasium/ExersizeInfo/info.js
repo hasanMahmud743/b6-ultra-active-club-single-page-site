@@ -31,10 +31,10 @@ const Info = (props) => {
             </div>
 
             <h4>Exersize Details</h4>
-            <h3>Exersize Time: {props.addValue}</h3>
+            <h3>Exersize Time: {props.addValue} sec</h3>
             <h3>Break Time: {duration} sec</h3>
 
-            <button>Complete Activities</button>
+            <button className='addButton'>Complete Activities</button>
 
 
             
