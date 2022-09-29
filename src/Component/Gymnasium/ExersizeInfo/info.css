@@ -53,3 +53,8 @@
     cursor: pointer;
  
 }
+
+.myCls{
+    background-color: aliceblue;
+    color: white;
+}
