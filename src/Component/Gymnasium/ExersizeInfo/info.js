@@ -19,7 +19,7 @@ const Info = (props) => {
         setDuration(duration)
     }
 
-    const notify = () => toast("Your activities is completed for today!");
+    const notify = () => toast(" Congrates! Your activities is completed for today!");
 
 
     return (
