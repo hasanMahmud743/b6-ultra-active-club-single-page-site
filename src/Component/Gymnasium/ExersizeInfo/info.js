@@ -3,22 +3,28 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './info.css';
 const Info = (props) => {
-    const [duration, setDuration] =useState(0)
-
-    useEffect(()=>{
-        const localValue = localStorage.getItem('BreakTime')
-        console.log(localValue)
-        setDuration(localValue)
-    },[])
-
-
+    
+    
+    
     const breakHandler =(duration)=> {
-        localStorage.setItem('BreakTime', duration)
-        
-        
+        localStorage.setItem('BreakTime', JSON.stringify(duration))
         setDuration(duration)
     }
 
+const [duration, setDuration] =useState(0)
+   
+
+    useEffect(()=>{
+        const localValue = localStorage.getItem('BreakTime')
+        const localValueParse = JSON.parse(localValue)
+        setDuration(localValueParse || 0)
+        
+    },[])
+    
+
+    
+    console.log(duration)
+    
     const notify = () => toast(" Congrates! Your activities is completed for today!");
 
 
