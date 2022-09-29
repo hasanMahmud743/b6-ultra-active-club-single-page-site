@@ -4,7 +4,7 @@
         "index": 0,
         "image": "https://www.mensjournal.com/wp-content/uploads/mf/_main_plank_5.jpg?w=1200&h=630&crop=1&quality=86&strip=all",
         "guid": "e362061c-08df-46c5-a98c-35fc175f2c76",
-        "description": "If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command ",
+        "description": "If you aren't satisfied with the build tool and  ",
         "name": "Plunk",
         "timeReq": 25,
         "forAge": "20-25"
@@ -14,7 +14,7 @@
         "index": 1,
         "image": "https://i.insider.com/5810cce78b987d5d4df68dbf?width=1136&format=jpeg",
         "guid": "71171835-7141-47e0-9e16-f26c90f7cf97",
-        "description": "If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command ",
+        "description": "If you aren't satisfied with the build tool and  ",
         "name": "Dambel",
         "timeReq": 28,
         "forAge": "20-25"
@@ -24,7 +24,7 @@
         "index": 2,
         "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d29ya291dHxlbnwwfHwwfHw%3D&w=1000&q=80",
         "guid": "1bc339de-2b43-4ede-a08b-a44cbfdf0817",
-        "description": "If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command ",
+        "description": "If you aren't satisfied with the build tool and    ",
         "name": "Sit Up",
         "timeReq": 22,
         "forAge": "20-25"
@@ -34,7 +34,7 @@
         "index": 3,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT63o3OX-cxp1zsQ1G6tIWfizG0LOoI_fyo2qkR-AsOWmOb6-e3xULeI4lNymcCMILeD8U&usqp=CAU",
         "guid": "ccadc765-f7d3-4be4-9955-c1e7c0dc0ded",
-        "description": "If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command ",
+        "description": "If you aren't satisfied with the build tool and  ",
         "name": "Push Up",
         "timeReq": 35,
         "forAge": "20-25"
@@ -42,7 +42,7 @@
     {
         "id": "6334687c4987c3497454bdc0",
         "index": 4,
-        "description": "If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command ",
+        "description": "If you aren't satisfied with the build tool and   ",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM8kWRYKoBcgIP94a8UggJaKwZ8idJB7aH3g&usqp=CAU",
         "guid": "e259a53e-239f-4b02-a362-f945f7967d46",
         "name": "Barbel",
@@ -54,7 +54,7 @@
         "index": 5,
         "image": "https://us.123rf.com/450wm/nikolasjkd/nikolasjkd1911/nikolasjkd191100064/136720602-muscular-man-workout-in-gym-strong-male-torso-abs.jpg?ver=6",
         "guid": "26572f52-0d0e-4414-815c-2c96dffd6ff3",
-        "description": "If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command ",
+        "description": "If you aren't satisfied with the build tool and   ",
         "name": "Pulling Chain",
         "timeReq": 45,
         "forAge": "20-25"

@@ -25,3 +25,11 @@
     cursor: pointer;
     background-color: white;
 }
+
+.bio{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(237, 241, 246);
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -5,7 +5,7 @@
 .card{
     /* border: 2px solid rgb(242, 237, 237); */
     border-radius: 20px;
-    padding: 10px;
+    padding: 30px 10px;
     background-color: white;
     /* box-shadow: 10px 10px 20px  rgb(232, 227, 227); */
 
@@ -13,7 +13,7 @@
 .card img{
     width: 100%;
     border-radius: 20px;
-    height: 150px;
+    height: 130px;
  
 }
 
@@ -23,14 +23,19 @@
     padding-right: 15px;
 }
 
-.card-info > h2, h4, p{
+.card-info > h3,  h4, h5, p{
     margin-top: 10px;
     margin-bottom: 15px;
+    
+}
+
+.card-info p, h4, h5{
+    color: #777;
 }
 
 .addButton{
     width: 200px;
-    padding: 15px ;
+    padding: 10px ;
     margin-bottom: 10px;
     border-radius: 10px;
     border: none;

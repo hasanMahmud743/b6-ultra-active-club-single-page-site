@@ -10,10 +10,10 @@ const Exersize = (props) => {
         <div className='card'>
              <img src={image} alt="images" />
                 <div className='card-info'>
-                    <h2>{name}</h2>
+                    <h3>{name}</h3>
                     <p> <small> {description}</small></p>
-                    <h4>For Age: {forAge} </h4>
-                    <h4>Time Required: {timeReq} sec</h4>
+                    <h5>Age: {forAge} yrs. </h5>
+                    <h5>Time Req: {timeReq} sec</h5>
                 </div>
             <div className='buttonDiv'>
             <button className='addButton' onClick={()=>addValueToInfo(timeReq)}>Add to Cart</button>
