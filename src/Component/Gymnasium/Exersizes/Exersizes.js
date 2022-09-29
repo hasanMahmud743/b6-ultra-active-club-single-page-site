@@ -8,14 +8,18 @@ const Exersizes = (props) => {
     // console.log(props.addValueToInfo)
     
     return (
-        <div className='card-display'>
-            {
-                (props.card).map(card => <Exersize addValueToInfo={props.addValueToInfo}  key={card.id}  card={card}></Exersize> )
-            }
-         
+       <div>
+        <h3>Select todays Exersize</h3>
+         <div className='card-display'>
+           
+           {
+               (props.card).map(card => <Exersize addValueToInfo={props.addValueToInfo}  key={card.id}  card={card}></Exersize> )
+           }
+        
 
-            
-        </div>
+           
+       </div>
+       </div>
     );
 };
 
