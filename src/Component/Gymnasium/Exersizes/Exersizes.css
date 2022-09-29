@@ -5,6 +5,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 10px;
+    /* background-color: rgb(222, 230, 225); */
     
 }
 
