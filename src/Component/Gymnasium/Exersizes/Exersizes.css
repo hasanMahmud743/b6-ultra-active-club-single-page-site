@@ -9,6 +9,11 @@
     
 }
 
+.card-title{
+    /* color: rgb(74, 30, 235); */
+    padding-left: 70px;
+}
+
 @media only screen and (max-width: 768px) {
 
 .card-display{

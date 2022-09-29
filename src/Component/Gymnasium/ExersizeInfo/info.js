@@ -55,7 +55,7 @@ const Info = (props) => {
             <h4 className='info-display'>Exersize Time: {props.addValue} sec</h4>
             <h4 className='info-display'>Break Time: {duration} sec</h4>
 
-            <button className='addButton'>Complete Activities</button>
+            <button className='addButton2'>Complete Activities</button>
 
 
             

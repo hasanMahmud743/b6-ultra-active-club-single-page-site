@@ -9,7 +9,7 @@ const Exersizes = (props) => {
     
     return (
        <div>
-        <h3>Select todays Exersize</h3>
+        <h3 className='card-title'>Select todays Challange:</h3>
          <div className='card-display'>
            
            {
