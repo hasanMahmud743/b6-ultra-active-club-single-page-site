@@ -33,3 +33,9 @@
     padding: 10px;
     border-radius: 10px;
 }
+
+.info-display{
+    padding: 30px;
+    background-color: rgb(237, 241, 246);
+    border-radius: 10px;
+}

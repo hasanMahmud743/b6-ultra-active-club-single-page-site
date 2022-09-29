@@ -42,7 +42,7 @@ const Info = (props) => {
 
                 </div>
             {/* <h3> W-63kg, H-5.7", Age-23</h3> */}
-            <h4>Add a Break</h4>
+            <h3>Add a Break</h3>
             <div className='button-group'>
                 <button onClick={()=> breakHandler(10)}> 10s </button>
                 <button onClick={()=> breakHandler(20)}> 20s </button>
@@ -51,9 +51,9 @@ const Info = (props) => {
                 <button onClick={()=> breakHandler(50)}> 50s </button>
             </div>
 
-            <h4>Exersize Details</h4>
-            <h3>Exersize Time: {props.addValue} sec</h3>
-            <h3>Break Time: {duration} sec</h3>
+            <h3>Exersize Details</h3>
+            <h4 className='info-display'>Exersize Time: {props.addValue} sec</h4>
+            <h4 className='info-display'>Break Time: {duration} sec</h4>
 
             <button className='addButton'>Complete Activities</button>
 
