@@ -28,18 +28,18 @@ const Info = (props) => {
                 <div className='bio'>
                     <div>
                         <h1>65kg</h1>
-                        <p>Weight</p>
+                        <p className='muteColor'>Weight</p>
 
                     </div>
                     
                     <div>
                         <h1>5.7"</h1>
-                        <p>Height</p>
+                        <p className='muteColor'>Height</p>
                     </div>
 
                     <div>
                         <h1>23</h1>
-                        <p>Age</p>
+                        <p className='muteColor'>Age</p>
                         
                     </div>
 
