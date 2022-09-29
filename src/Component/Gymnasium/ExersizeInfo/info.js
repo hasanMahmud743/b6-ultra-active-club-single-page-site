@@ -22,12 +22,12 @@ const Info = (props) => {
             <h2>Mahmudul's Fitness Report</h2>
             <h3> W-63kg, H-5.7", Age-23</h3>
             <h4>Add a Break</h4>
-            <div>
+            <div className='button-group'>
                 <button onClick={()=> breakHandler(10)}> 10s </button>
                 <button onClick={()=> breakHandler(20)}> 20s </button>
                 <button onClick={()=> breakHandler(30)}> 30s </button>
                 <button onClick={()=> breakHandler(40)}> 40s </button>
-                <button onClick={()=> breakHandler(50)}> 50s </button>
+                {/* <button onClick={()=> breakHandler(50)}> 50s </button> */}
             </div>
 
             <h4>Exersize Details</h4>
