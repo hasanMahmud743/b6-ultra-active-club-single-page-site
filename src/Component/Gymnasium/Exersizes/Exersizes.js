@@ -3,22 +3,18 @@ import Exersize from '../Exersize/Exersize';
 import './Exersizes.css';
 
 const Exersizes = (props) => {
-    // const{addValueToInfo} = props.addValueToInfo
-
-    // console.log(props.addValueToInfo)
+    const {card, addValueToInfo}= props
     
     return (
        <div>
         <h3 className='card-title'>Select todays Challange:</h3>
-         <div className='card-display'>
-           
-           {
-               (props.card).map(card => <Exersize addValueToInfo={props.addValueToInfo}  key={card.id}  card={card}></Exersize> )
-           }
-        
+            <div className='card-display'>
+            
+                {
+                    card.map(card => <Exersize addValueToInfo={addValueToInfo}  key={card.id}  card={card}></Exersize> )
+                }
 
-           
-       </div>
+            </div>
        </div>
     );
 };

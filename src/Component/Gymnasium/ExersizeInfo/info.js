@@ -24,7 +24,7 @@ const Info = (props) => {
 
     return (
         <div className='infoDiv'>
-            <h2>Mahmudul's Fitness Report</h2>
+            <h2> <span style={{color: 'rgb(74, 30, 235)'}}> Mahmudul's</span> Fitness Report:</h2>
                 <div className='bio'>
                     <div>
                         <h1>65kg</h1>

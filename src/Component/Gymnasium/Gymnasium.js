@@ -13,11 +13,10 @@ const Gymnasium = () => {
     const addValueToInfo = (time) =>{
         
         newTime = time + newTime
-        console.log(newTime)
           setAddValue(newTime)
     }
 
-    // console.log(addValue)
+    
 
     useEffect(()=>{
         fetch('data.json')
@@ -30,19 +29,15 @@ const Gymnasium = () => {
 
     return (
         <div className='gym-card'>
+            
             <div>
                 <Exersizes addValueToInfo={addValueToInfo}    card={cards}></Exersizes>
-          
             </div>
 
             <div>
-                
                 <Info  addValue={addValue}></Info>
-               
-
             </div>
-           
-            
+
         </div>
     );
 };

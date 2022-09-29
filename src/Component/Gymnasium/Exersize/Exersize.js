@@ -2,9 +2,9 @@ import React from 'react';
 import './Exersize.css';
 
 const Exersize = (props) => {
+    const {addValueToInfo, card} = props
+    const {name, image,  forAge, timeReq, description} = card
    
-    const {name, image,  forAge, timeReq, description} = props.card
-    const {addValueToInfo} = props
    
     return (
         <div className='card'>
