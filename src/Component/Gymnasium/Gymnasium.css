@@ -3,3 +3,22 @@
     display: grid; 
     grid-template-columns: 3fr 1fr; 
 }  
+
+
+@media only screen and (max-width: 768px) {
+
+    .gym-card{
+        display:grid;
+        grid-template-columns:  1fr 1fr; 
+    }  
+}
+
+@media only screen and (max-width: 600px) {
+    .gym-card{
+        display:flex;
+        flex-direction: column-reverse; 
+    }  
+}
+
+
+    
